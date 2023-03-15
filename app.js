@@ -52,3 +52,22 @@ whichQuadrant(2,-2);
 
 // Exercise 4 
 
+function triangleType(a,b,c){
+    if (a===b && b===c && a===c){
+        console.log("Equilateral Triangle")
+    }
+    else if (a===b || b===c || a===c){
+        console.log("Isosceles Triangle")
+    }
+    else if (a != b && a != c && b != c){
+        console.log("Scalene Triangle")
+    }
+}
+
+triangleType(2,1,2);
+
+// BONUS Exercise 5
+
+
+
+
